@@ -14,23 +14,23 @@
 
 </head>
 <body data-spy="scroll" data-target=".navbar" data-offset="40" id="home">
-    
-    <header class="header">
-        <div class="container">
-            <!-- <ul class="social-icons pt-3">
-                <li class="social-item"><a class="social-link text-light" href="#"><i class="ti-facebook" aria-hidden="true"></i></a></li>
-                <li class="social-item"><a class="social-link text-light" href="#"><i class="ti-google" aria-hidden="true"></i></a></li>
-                <li class="social-item"><a class="social-link text-light" href="#"><i class="ti-instagram" aria-hidden="true"></i></a></li>
-                <li class="social-item"><a class="social-link text-light" href="#"><i class="ti-github" aria-hidden="true"></i></a></li>
-            </ul> -->  
-            <div class="header-content">
-                <h4 class="header-subtitle" >Hello, I am</h4>
-                <h1 class="header-title">Simranjeet Kaur</h1>
-                <h6 class="header-mono" >Full Stack Developer</h6>
-                <a href="assets/docs/SimranResume.pdf" target="_blank"  class="btn btn-primary btn-rounded"><i class="ti-printer pr-2"></i>Print Resume</a>
+   
+    <header class="simple-header">
+        <div class="container header-container">
+            <div class="header-left">
+            <h4 class="header-subtitle">Hello, I am</h4>
+            <h1 class="header-title">Simranjeet Kaur</h1>
+            <h6 class="header-mono">Full Stack Developer</h6>
+            <a href="assets/docs/Simran_Resume.pdf" target="_blank" class="btn btn-primary btn-rounded">
+                <i class="ti-printer pr-2"></i>Print Resume
+            </a>
+            </div>
+            <div class="header-right">
+            <img src="assets/imgs/dummyimg.png" alt="Profile" class="profile-image">
             </div>
         </div>
     </header>
+
     <nav class="navbar sticky-top navbar-expand-lg navbar-light bg-white" data-spy="affix" data-offset-top="510">
         <div class="container">
             <button class="navbar-toggler ml-auto" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
@@ -207,7 +207,7 @@
                             </div>
                         </div>
                     </div>
-                   <!--  <div class="card">
+                  
                        <div class="card-header">
                             <div class="pull-left">
                                 <h4 class="mt-2">Languages</h4>
@@ -235,7 +235,7 @@
     </section>
 
     
-    <section class="section" id="service">
+    <!-- <section class="section" id="service">
         <div class="container">
             <h2 class="mb-5 pb-4"><span class="text-danger">My</span> Services</h2>
             <div class="row">
@@ -308,80 +308,57 @@
                 </div>
             </div>
         </div>
-    </section>
-
-    
-    <section class="section bg-dark py-5">
-        <div class="container text-center">
-            <h2 class="text-light mb-5 font-weight-normal">I Am Available For FreeLance</h2>
-          
-            <button class="btn bg-primary w-lg" ><a  href="mailto:simranraj8626@gmail.com?subject=Hiring Inquiry&body=Hello, I’d like to discuss a project with you." class="hire-me-button  text-white">Hire me</a></button>
-        </div>
-    </section>
-
-   
-
+    </section> -->
     <section class="section" id="blog">
     <div class="container">
-        <h2 class="mb-5">Latest <span class="text-danger">Updates</span></h2>
+        <h2 class="mb-5">Projects</h2>
         <div class="row">
+
             <div class="blog-card">
-                <div class="img-holder">
-                    <img src="assets/imgs/blog1.jpg" alt="AI Music Generator">
-                </div>
                 <div class="content-holder">
-                    <h6 class="title">Plagrism Checker</h6>
-                    <p class="post-details">
-                        <a href="#">By: Simranjeet Kaur</a>
-                        <a href="#"><i class="ti-heart text-danger"></i> 234</a>
-                        <a href="#"><i class="ti-comment"></i> 45</a>
-                    </p>
-                    <p>The Plagiarism Checker API is a web-based tool designed to detect text similarity and plagiarism. It is built using Java (Spring Boot) for the backend and React for the frontend. The API processes user-submitted text, compares it against reference data using string-matching algorithms, and calculates a plagiarism percentage and unique content percentage. It features real-time analysis, an intuitive UI, and API-based processing. Future enhancements include AI-powered detection, multi-language support, and database integration for storing analysis history.</p>
-                    <a href="#" class="read-more">Read more <i class="ti-angle-double-right"></i></a>
+                    <h6 class="title">Restoration Sash and Door</h6>
+                    <p>Developed a dynamic web application for Sashdoor, enabling customers to configure custom doors and windows. The platform featured a seamless integration of Laravel for backend operations, Vue.js for interactive frontend components, and WordPress for pre-login content management.</p>
+                    <p><strong>Technologies used:</strong> Laravel, Vue.js, WordPress</p>
+                    <p><a href="https://test1.sash.shop/" target="_blank" rel="noopener noreferrer">Visit Site</a></p>
                 </div>
             </div>
 
             <div class="blog-card">
-                <div class="img-holder">
-                    <img src="assets/imgs/python.png" alt="E-Commerce Design">
-                </div>
                 <div class="content-holder">
-                    <h6 class="title">Building a Scalable E-Commerce Platform</h6>
+                    <h6 class="title">V.ARIA Health – Telehealth Web Application</h6>
                     <p class="post-details">
                         <a href="#">By: Simranjeet Kaur</a>
                         <a href="#"><i class="ti-heart text-danger"></i> 456</a>
                         <a href="#"><i class="ti-comment"></i> 67</a>
                     </p>
-                    <p>The E commerce project is dynamic user-friendly platform designed to enable users to browse and purchanse products online. It integrate modern web technologies, a MongoDb for efficient data handling and python's flask framwork for backend  sevices. The website supports key eCommerce functionalities such as product display, filter the product, and secure database interactions, add item to cart, remove item from cart and checkout with cash on delivery.</p>
-                    <a href="#" class="read-more">Read more <i class="ti-angle-double-right"></i></a>
+                    <p>Contributed to the development of a hybrid telehealth platform combining Laravel (Vue-powered) with WordPress for the landing and pre-login pages</p>
+                    <p><strong>Technologies used:</strong> Laravel, Vue.js, WordPress, MySQL, REST APIs, Bootstrap, Stripe</p>
+                    <p><a href="https://v-ariahealth.com/" target="_blank" rel="noopener noreferrer">Visit Site</a></p>
                 </div>
             </div>
 
             <div class="blog-card">
-                <div class="img-holder">
-                    <img src="assets/imgs/my-movies.png" alt="OpenWeatherMap API">
-                </div>
                 <div class="content-holder">
-                    <h6 class="title">JustMovies project </h6>
+                    <h6 class="title">JustMovies Project </h6>
                     <p class="post-details">
                         <a href="#">By: Simranjeet Kaur</a>
                         <a href="#"><i class="ti-heart text-danger"></i> 321</a>
                         <a href="#"><i class="ti-comment"></i> 52</a>
                     </p>
                     <p>A movie-centric web application that allows users to search for movies, view details, and perform various interactions, such as logging in, searching movies, and managing their session.</p>
-                     <ul>
+                    <ul>
                         <li>A backend API endpoint is used to fetch movies based on the user's search term. The API is secured using a token passed in the request headers.</li>
-                        <li>Technology Stack:</li>
-                        <li> React: For building the user interface, handling routing, and managing state.
-                            React Router: For client-side routing (e.g., navigation between home, login, and search pages).
-                            CSS: For styling the components (defined in App.css).</li>
+                        <li><strong>Technology Stack:</strong></li>
+                        <li>React, React Router, CSS</li>
                     </ul>
-                    <a href="#" class="read-more">Read more <i class="ti-angle-double-right"></i></a>
+                    <!-- <p><a href="https://example-justmovies.com" target="_blank" rel="noopener noreferrer">Visit Site</a></p> -->
                 </div>
             </div>
+
         </div>
     </div>
-</section>
+    </section>
+ 
 
     <div class="section contact" id="contact">
         <!-- <div id="map" class="map"></div> -->

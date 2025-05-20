@@ -11682,3 +11682,35 @@ pre .code {
   display: block;
   margin-top: 10px;
 }
+
+
+/* simple eader css  */
+
+.simple-header {
+  background: #f8f9fa; /* light background */
+  padding: 60px 20px;
+}
+
+.header-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+.header-left {
+  flex: 1;
+  min-width: 300px;
+}
+
+.header-right {
+  flex: 1;
+  min-width: 250px;
+  text-align: center;
+}
+
+.profile-image {
+  max-width: 100%;
+  height: auto;
+  border-radius: 10px;
+}
