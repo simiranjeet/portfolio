@@ -14,23 +14,6 @@
 
 </head>
 <body data-spy="scroll" data-target=".navbar" data-offset="40" id="home">
-   
-    <header class="simple-header">
-        <div class="container header-container">
-            <div class="header-left">
-            <h4 class="header-subtitle">Hello, I am</h4>
-            <h1 class="header-title">Simranjeet Kaur</h1>
-            <h6 class="header-mono">Full Stack Developer</h6>
-            <a href="assets/docs/Simran_Resume.pdf" target="_blank" class="btn btn-primary btn-rounded">
-                <i class="ti-printer pr-2"></i>Print Resume
-            </a>
-            </div>
-            <div class="header-right">
-            <img src="assets/imgs/dummyimg.png" alt="Profile" class="profile-image">
-            </div>
-        </div>
-    </header>
-
     <nav class="navbar sticky-top navbar-expand-lg navbar-light bg-white" data-spy="affix" data-offset-top="510">
         <div class="container">
             <button class="navbar-toggler ml-auto" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
@@ -49,7 +32,7 @@
                     </li>
                 </ul>
                 <ul class="navbar-nav brand">
-                    <img src="assets/imgs/my-img.jpeg" alt="" class="brand-img">
+                    <!-- <img src="assets/imgs/my-img.jpeg" alt="" class="brand-img"> -->
                     <li class="brand-txt">
                         <h5 class="brand-title">Simranjeet Kaur</h5>
                         <div class="brand-subtitle">Full Stack Developer</div>
@@ -60,7 +43,7 @@
                         <a href="#portfolio" class="nav-link">Portfolio</a>
                     </li>
                     <li class="nav-item">
-                        <a href="#blog" class="nav-link">Blog</a>
+                        <a href="#projects" class="nav-link">Projects</a>
                     </li>
                     <li class="nav-item last-item">
                         <a href="#contact" class="nav-link">Contact</a>
@@ -69,6 +52,35 @@
             </div>
         </div>
     </nav>
+    <header class="simple-header">
+        <div class="container header-container">
+            <div class="header-left">
+            <h4 class="header-subtitle">Hello, I am</h4>
+            <h1 class="header-title">Simranjeet Kaur</h1>
+            <h6 class="header-mono">Full Stack Developer</h6>
+            <p>
+                <a href="https://github.com/simiranjeet" target="_blank" class="github-link">
+                
+                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" 
+                        stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" 
+                        class="lucide lucide-github">
+                        <path d="M15 22v-4a4.8 4.8 0 0 0-1-3.5c3 0 6-2 6-5.5.08-1.25-.27-2.48-1-3.5.28-1.15.28-2.35 0-3.5 0 0-1 0-3 1.5-2.64-.5-5.36-.5-8 0C6 2 5 2 5 2c-.3 1.15-.3 2.35 0 3.5A5.403 5.403 0 0 0 4 9c0 3.5 3 5.5 6 5.5-.39.49-.68 1.05-.85 1.65-.17.6-.22 1.23-.15 1.85v4"></path>
+                        <path d="M9 18c-4.51 2-5-2-7-2"></path>
+                    </svg>
+                    <span class="font-rubik text-2xl max-sm:text-xl">Github</span>
+                </a>
+            </p>
+            <a href="assets/docs/Simran_Resume.pdf" target="_blank" class="btn btn-primary btn-rounded">
+                <i class="ti-printer pr-2"></i>Print Resume
+            </a>
+            </div>
+            <div class="header-right">
+            <img src="assets/imgs/dummyimg.png" alt="Profile" class="profile-image">
+            </div>
+        </div>
+    </header>
+
+    
     <div class="container-fluid">
         <div id="about" class="row about-section">
             <div class="col-lg-4 about-card">
@@ -233,83 +245,7 @@
             </div>
         </div>
     </section>
-
-    
-    <!-- <section class="section" id="service">
-        <div class="container">
-            <h2 class="mb-5 pb-4"><span class="text-danger">My</span> Services</h2>
-            <div class="row">
-                <div class="col-md-4 col-sm-6">
-                    <div class="card mb-5">
-                       <div class="card-header has-icon">
-                            <i class="ti-vector text-danger" aria-hidden="true"></i>
-                        </div>
-                        <div class="card-body px-4 py-3">
-                            <h5 class="mb-3 card-title text-dark">Web Development</h5>
-                            <P class="subtitle"> Creating modern, responsive, and high-performance websites using HTML, CSS, JavaScript, React, and Angular. I specialize in delivering user-friendly designs and seamless functionality across all devices.</P>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-md-4 col-sm-6">
-                    <div class="card mb-5">
-                       <div class="card-header has-icon">
-                            <i class="ti-write text-danger" aria-hidden="true"></i>
-                        </div>
-                        <div class="card-body px-4 py-3">
-                            <h5 class="mb-3 card-title text-dark">Backend Development</h5>
-                            <P class="subtitle">Building robust and scalable server-side applications with frameworks like Spring Boot, Django, and Laravel. Expertise in RESTful APIs, database management (MySQL, PostgreSQL, MongoDB), and cloud integration.
-                            </p>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-md-4 col-sm-6">
-                    <div class="card mb-5">
-                       <div class="card-header has-icon">
-                            <i class="ti-package text-danger" aria-hidden="true"></i>
-                        </div>
-                        <div class="card-body px-4 py-3">
-                            <h5 class="mb-3 card-title text-dark">AI Integration</h5>
-                            <P class="subtitle">LImplementing AI-based solutions, such as chatbots, recommendation systems, and music or code generation platforms, using Python, TensorFlow, OpenAI APIs, and other AI technologies.</p>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-md-4 col-sm-6">
-                    <div class="card mb-5">
-                       <div class="card-header has-icon">
-                            <i class="ti-map-alt text-danger" aria-hidden="true"></i>
-                        </div>
-                        <div class="card-body px-4 py-3">
-                            <h5 class="mb-3 card-title text-dark">Provident</h5>
-                            <P class="subtitle">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ullam commodi provident, dolores reiciendis enim pariatur error optio, tempora ex, nihil nesciunt! In praesentium sunt commodi, unde ipsam ex veritatis laboriosam dolor asperiores suscipit blanditiis, dignissimos quos nesciunt nulla aperiam officia.</P>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-md-4 col-sm-6">
-                    <div class="card mb-5">
-                       <div class="card-header has-icon">
-                            <i class="ti-bar-chart text-danger" aria-hidden="true"></i>
-                        </div>
-                        <div class="card-body px-4 py-3">
-                            <h5 class="mb-3 card-title text-dark">Database Design and Optimization</h5>
-                            <P class="subtitle">Designing efficient database schemas, optimizing query performance, and managing large datasets with SQL and NoSQL solutions to support scalable applications. </p>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-md-4 col-sm-6">
-                    <div class="card mb-5">
-                       <div class="card-header has-icon">
-                            <i class="ti-support text-danger" aria-hidden="true"></i>
-                        </div>
-                        <div class="card-body px-4 py-3">
-                            <h5 class="mb-3 card-title text-dark">Deployment and Cloud Integration</h5>
-                            <P class="subtitle">Offering seamless deployment of applications to cloud platforms like AWS, Google Cloud, and Microsoft Azure. Expertise in setting up CI/CD pipelines, containerization with Docker, and server management to ensure scalable and reliable performance.</p>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section> -->
-    <section class="section" id="blog">
+    <section class="section" id="projects">
     <div class="container">
         <h2 class="mb-5">Projects</h2>
         <div class="row">
@@ -331,7 +267,9 @@
                         <a href="#"><i class="ti-heart text-danger"></i> 456</a>
                         <a href="#"><i class="ti-comment"></i> 67</a>
                     </p>
-                    <p>Contributed to the development of a hybrid telehealth platform combining Laravel (Vue-powered) with WordPress for the landing and pre-login pages</p>
+                    <p>Contributed to the development of a hybrid telehealth platform combining Laravel (Vue-powered) with WordPress for the landing and pre-login pages
+                        Developed and managed Vue.js-based frontend components for patient dashboards, medical consultation chatbots.
+                    </p>
                     <p><strong>Technologies used:</strong> Laravel, Vue.js, WordPress, MySQL, REST APIs, Bootstrap, Stripe</p>
                     <p><a href="https://v-ariahealth.com/" target="_blank" rel="noopener noreferrer">Visit Site</a></p>
                 </div>
@@ -423,14 +361,7 @@
 
         </div>
     </div>
-    <footer class="footer py-3">
-        <div class="container">
-            <p class="small mb-0 text-light">
-                &copy; <script>document.write(new Date().getFullYear())</script> Created With <i class="ti-heart text-danger"></i> By <a href="http://devcrud.com" target="_blank"><span class="text-danger" title="Bootstrap 4 Themes and Dashboards">DevCRUD</span></a> 
-            </p>
-        </div>
-    </footer>
-
+   
 	<!-- core  -->
     <script src="assets/vendors/jquery/jquery-3.4.1.js"></script>
     <script src="assets/vendors/bootstrap/bootstrap.bundle.js"></script>
